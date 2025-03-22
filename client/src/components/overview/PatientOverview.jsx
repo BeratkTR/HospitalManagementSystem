@@ -7,11 +7,11 @@ const PatientOverview = () => {
             <h1 className="display-4 text-center mb-3">Genel Bakış:</h1>
             <div style={styles.container}>
                 <div style={{...styles.box, backgroundColor: "blue"}}>
-                    <h3>Aktif Randevular: ?{}</h3>
+                    <h3>Aktif Randevular: {}</h3>
                     <i class="fa-regular fa-calendar fa-4x"></i>
                 </div>
                 <div style={{...styles.box, backgroundColor: "red"}}>
-                    <h3>Ödenmemiş Faturalar: ?{}</h3>
+                    <h3>Ödenmemiş Faturalar: {}</h3>
                     <i class="fa-solid fa-receipt fa-4x"></i>
                 </div>
             </div>

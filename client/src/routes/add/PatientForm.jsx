@@ -21,8 +21,8 @@ const PatientForm = () => {
         catch(err){
             console.log(err);
             toast.error("Hasta oluşturma başarısız.", {position: "top-right"})
-            Navigate("/");
-        }
+            Navigate("/");  
+        } 
     }
 
     return(

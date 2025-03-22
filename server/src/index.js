@@ -447,6 +447,6 @@ app.delete("/api/appointments/:id", async(request, response) => {
 
 const PORT = 3002;
 app.listen(PORT, ()=> {
-    console.log(`Server is running at ${PORT}`);
+    console.log(`Server is running at ${PORT}`); 
 });
 
